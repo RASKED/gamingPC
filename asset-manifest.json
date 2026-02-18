@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/gamingPC/static/css/main.ff4c734e.css",
-    "main.js": "/gamingPC/static/js/main.5406040e.js",
+    "main.css": "/gamingPC/static/css/main.2f6cf18a.css",
+    "main.js": "/gamingPC/static/js/main.d6d37e2b.js",
     "static/js/453.e130b24d.chunk.js": "/gamingPC/static/js/453.e130b24d.chunk.js",
     "static/media/pictfooter.jpg": "/gamingPC/static/media/pictfooter.d920eb4fe903a9ae9e9b.jpg",
-    "static/media/logo.svg": "/gamingPC/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/gamingPC/index.html",
-    "main.ff4c734e.css.map": "/gamingPC/static/css/main.ff4c734e.css.map",
-    "main.5406040e.js.map": "/gamingPC/static/js/main.5406040e.js.map",
+    "main.2f6cf18a.css.map": "/gamingPC/static/css/main.2f6cf18a.css.map",
+    "main.d6d37e2b.js.map": "/gamingPC/static/js/main.d6d37e2b.js.map",
     "453.e130b24d.chunk.js.map": "/gamingPC/static/js/453.e130b24d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff4c734e.css",
-    "static/js/main.5406040e.js"
+    "static/css/main.2f6cf18a.css",
+    "static/js/main.d6d37e2b.js"
   ]
 }
