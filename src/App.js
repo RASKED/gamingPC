@@ -1,33 +1,29 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import './App.css';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Используем HashRouter для GitHub
 import Header from './elements/header';
-import Main from './pages/main';
 import Footer from './elements/footer';
-import ProductPage from './pages/product';
+import Main from './pages/main';
+import ProductPage from './pages/ProductPage';
+
 
 function App() {
   return (
     
       <div className="App">
         <Header />
-        
-
-
         <Routes>
-          {/* Главная */}
+          {/* Главная - только по адресу / */}
           <Route path="/" element={<Main />} />
           
-          {/* Страница товара. Важно: :productId — это имя переменной */}
+          {/* Страница товара - ТОЛЬКО по адресу /product/... */}
           <Route path="/products/:productId" element={<ProductPage />} />
           
-          {/* Если ввели несуществующий адрес */}
-          <Route path="*" element={<h1>404: Страница не найдена</h1>} />
+          {/* 404 - если адрес не совпал */}
+          <Route path="*" element={<h1>Страница не найдена</h1>} />
         </Routes>
-
         <Footer />
       </div>
-   
+    
   );
 }
 

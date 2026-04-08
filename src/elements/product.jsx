@@ -5,7 +5,7 @@ import "../css/main.css";
 export default function Product({ name, price }) {
 
     function click(){
-        window.location.href = "/gamingPC/products/1"
+        window.location.href = "/products/1"
 
     }
 

@@ -8,7 +8,7 @@ const PRODUCTS = {
   "1": {
     name: "GAMING PC INTEL POWER 1",
     price: "899.00 €",
-    img: "https://via.placeholder.com/500", // Сюда вставьте ссылку на фото ПК
+    img: "https://www.hnf.de/fileadmin/content/pictures/HNF/Dauerausstellung/Computer_f%C3%BCr_Alle/Geburt_des_PC/2025/PC-Geschichte_5.jpg", // Сюда вставьте ссылку на фото ПК
     description: "Мощный игровой компьютер для современных игр в 1080p и 1440p.",
     specs: {
       "CPU": "Intel Core i5-13400F",
@@ -73,19 +73,19 @@ export default function ProductPage() {
       <WideSection
         title="Мощные игровые решения"
         description="Наши компьютеры собраны из лучших комплектующих для максимальной частоты кадров в любых играх."
-        image="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&q=80&w=1000"
+        image="https://img.overclockers.co.uk/images/FS-1DN-EP/30e2435a38217f58ddc796bde01cc4e1.jpg"
         imageSide="right"
       />
       <WideSection
         title="Мощные игровые решения"
         description="Наши компьютеры собраны из лучших комплектующих для максимальной частоты кадров в любых играх."
-        image="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&q=80&w=1000"
+        image="https://cdn.mos.cms.futurecdn.net/8B9HLUaCUUSqMBc4AQdxP7.jpg"
         imageSide="left"
       />
       <WideSection
         title="Мощные игровые решения"
         description="Наши компьютеры собраны из лучших комплектующих для максимальной частоты кадров в любых играх."
-        image="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&q=80&w=1000"
+        image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAN_vNisIK1ZweiHN5C83kWWJANJVZjRvlgg&s0"
         imageSide="right"
       />
       <WideSection

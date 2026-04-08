@@ -80,3 +80,7 @@ margin-bottom: 6px;
 .product-price {
 font-weight: bold;
 }
+
+ *{
+    font-family: "Noto Sans";
+ }
